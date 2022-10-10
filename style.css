@@ -62,7 +62,9 @@ main.thank-you {
 }
 
 .chosen-rating {
-  padding: 6px 16px;
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 6px 0;
   border-radius: 16px;
   background-color: hsl(213.9, 19%, 23.7%);
   color: var(--orange);
