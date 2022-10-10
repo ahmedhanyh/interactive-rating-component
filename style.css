@@ -70,12 +70,21 @@ button {
   font-size: 100%;
 }
 
-.ratings > button {
+button:hover {
+  cursor: pointer;
+}
+
+.rating {
   padding: 14px 18px;
   border-radius: 50%;
   color: var(--light-grey);
   font-weight: bold;
   background-color: hsl(213.9, 19%, 23.7%);
+}
+
+.rating:hover {
+  background-color: var(--orange);
+  color: white;
 }
 
 .submit-btn {
@@ -85,6 +94,11 @@ button {
   letter-spacing: 2px;
   border-radius: 24px;
   background-color: var(--orange);
+}
+
+.submit-btn:hover {
+  background-color: white;
+  color: var(--orange);
 }
 
 .attribution {
