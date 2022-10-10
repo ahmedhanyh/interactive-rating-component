@@ -36,6 +36,13 @@ main {
   gap: 24px;
 }
 
+main.thank-you {
+  padding: 48px 28px;
+  text-align: center;
+  align-items: center;
+  gap: 32px;
+}
+
 .star-icon {
   display: flex;
 }
@@ -47,6 +54,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.chosen-rating {
+  padding: 6px 16px;
+  border-radius: 16px;
+  background-color: hsl(213.9, 19%, 23.7%);
+  color: var(--orange);
 }
 
 h1 {
